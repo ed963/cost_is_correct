@@ -126,3 +126,6 @@ dmypy.json
 
 # chromedriver
 chromedriver/
+
+# PyCharm
+.idea/

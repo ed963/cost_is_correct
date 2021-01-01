@@ -9,4 +9,7 @@ def string_to_cents(string: str) -> int:
 def cents_to_string(cents: int) -> str:
     d = cents // 100
     c = cents % 100
-    return str(d) + '.' + str(c)
+    if c != 0:
+        return str(d) + '.' + str(c)
+    else:
+        return str(d) + '.' + '00'
