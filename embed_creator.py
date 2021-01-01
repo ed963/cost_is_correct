@@ -1,5 +1,4 @@
 from product import Product
-from player import Player
 from discord import Embed
 from typing import List, Tuple
 
