@@ -45,7 +45,7 @@ To log in with your Discord Bot, run
 python main.py
 ```
 
-Then, to start a new game, type '_SPECIAL\_CHAR_ new' into a text channel, where _SPECIAL\_CHAR_ is replaced by the special character defined in your `.env` file.
+Then, to start a new game, type 'new' prepended by the special character defined in your `.env` file into a text channel of your server. For example, if your special character is defined to be '>', you would type '>new' to start a new game.
 
 ## License
 
