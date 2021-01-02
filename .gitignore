@@ -125,7 +125,7 @@ dmypy.json
 .pyre/
 
 # chromedriver
-chromedriver/
+chromedriver.exe
 
 # PyCharm
 .idea/

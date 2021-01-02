@@ -7,7 +7,7 @@ from currency_converter import string_to_cents
 
 def get_product_info(n: int) -> List[Tuple[str, str, int]]:
     products = []
-    driver = webdriver.Chrome('chromedriver/chromedriver.exe')
+    driver = webdriver.Chrome('chromedriver.exe')
     i = 0
     try:
         while i < n:
